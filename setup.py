@@ -8,9 +8,9 @@ setuptools.setup(
     author="Ajeet Khan",
     author_email="i.ajeetkhan@gmail.com",
     description="A package to check system related metrics and values for simpler blackbox monitoring",
-    long_description="A package that can help to do blackbox monitoring by providing metrics related to system-overview,IOPS,Disks,Memory,CPU etc using a single command.",
+    long_description=long_description,
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/AjeetK/so.git",
     packages=setuptools.find_packages(),
     classifiers=[
     "Programming Language :: Python :: 3",
