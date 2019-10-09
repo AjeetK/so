@@ -2,9 +2,9 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
-    name='so',
+    name='soms',
     version='1.0',
-    scripts=['so'],
+    scripts=['soms'],
     author="Ajeet Khan",
     author_email="i.ajeetkhan@gmail.com",
     description="A package to check system related metrics and values for simpler blackbox monitoring",
@@ -15,6 +15,6 @@ setuptools.setup(
     classifiers=[
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
-    "Operating System :: Linux Based",
+    "Operating System :: POSIX :: Linux",
     ],
     )
